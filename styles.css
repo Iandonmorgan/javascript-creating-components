@@ -1,0 +1,83 @@
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pushRight {
+    margin-left: auto;
+}
+
+.xx-large {
+    font-size: 3em;
+}
+
+.bordered {
+    border-width: 1px;
+    border-color: goldenrod;
+    border-style: solid;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.section--padded {
+    padding: 10px;
+}
+
+.passing {
+    color: green;
+}
+
+.failing {
+    color: orange;
+}
+
+
+
+/*  JUST PLAYING AROUND WITH CSS
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.student {
+    color: darkgreen;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+}
+
+h1 {
+    background-color: darkgreen;
+    color: white;
+}
+
+.failing h1 {
+    background-color: red;
+    color: white;
+}
+
+aside {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 0 0 15px 15px;
+    bottom: 0;
+}
+
+.failing aside {
+    background-color: red;
+    color: white;
+}
+
+.failing {
+    color: red;
+}
+
+*/
