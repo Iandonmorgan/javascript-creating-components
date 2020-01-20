@@ -34,14 +34,40 @@
 }
 
 
+/* GOOFING OFF WITH STYLES.CSS */
 
-/*  JUST PLAYING AROUND WITH CSS
-
+/* body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 #container {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
     text-align: center;
+}
+
+.pushRight {
+    margin-left: auto;
+}
+
+.xx-large {
+    font-size: 3em;
+    text-align: center;
+}
+
+.bordered {
+    border-width: 1px;
+    border-color: goldenrod;
+    border-style: solid;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.section--padded {
+    padding: 10px;
 }
 
 .student {
@@ -60,7 +86,7 @@ h1 {
 }
 
 .failing h1 {
-    background-color: red;
+    background-color: orange;
     color: white;
 }
 
@@ -72,12 +98,18 @@ aside {
 }
 
 .failing aside {
-    background-color: red;
+    background-color: orange;
     color: white;
 }
 
 .failing {
-    color: red;
+    color: white;
+    background-color: orange;
+    border-radius: 15px 15px 0 0;
 }
 
-*/
+.passing {
+    color: white;
+    background-color: darkgreen;
+    border-radius: 15px 15px 0 0;
+} */
